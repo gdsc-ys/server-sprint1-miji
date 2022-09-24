@@ -1,0 +1,2 @@
+FLASK_APP=mijitel
+FLASK_DEBUG=1
