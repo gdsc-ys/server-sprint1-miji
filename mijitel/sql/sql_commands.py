@@ -23,6 +23,10 @@ GET_ROOMS = (
     "SELECT * FROM rooms"
 )
 
+GET_ROOM = (
+    "SELECT * FROM rooms WHERE room_code = (%s)"
+)
+
 # 고객이 입장한 room의 id 받아오는 select 구문 하나
 GET_ROOM_ID = (
     "SELECT * FROM customers WHERE room_code = (%s);"
